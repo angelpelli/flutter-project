@@ -1,0 +1,43 @@
+name: proyecto_angel_pellitero
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^5.1.0
+  intl: ^0.19.0
+  path: ^1.8.3
+  uuid: ^4.0.0
+  table_calendar: ^3.0.9
+  sqflite: ^2.2.8+4
+  sqflite_common_ffi: ^2.2.5
+  path_provider: ^2.0.15
+  provider: ^6.0.5
+  flutter_form_builder: ^9.0.0
+  form_builder_validators: 11.1.1
+  window_size:
+    git:
+      url: https://github.com/google/flutter-desktop-embedding.git
+      path: plugins/window_size
+      ref: 6c66ad23ee79749f30a8eece542cf54eaf157ed8
+  lib: ^0.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  integration_test:
+    sdk: flutter
+  mockito: ^5.4.5
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
